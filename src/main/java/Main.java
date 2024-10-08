@@ -19,7 +19,7 @@ public class Main {
             System.out.println("2. اضافه کردن سیاره جدید");
             System.out.println("3. تغییر تعداد قمر سیاره");
             System.out.println("4. نمایش اطلاعات سیاره");
-            System.out.println("5. خروج و ذخیره اطلاعات.");
+            System.out.println("5. خروج و ذخیره اطلاعات");
             System.out.print("انتخاب شما: ");
 
             choice = Integer.parseInt(scanner.nextLine());
