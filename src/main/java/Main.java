@@ -14,7 +14,7 @@ public class Main {
         int choice;
 
         do {
-            System.out.println("به سیستم مدیریت کهکشان خوش آمدید!");
+            System.out.println("به سیستم مدیریت کهکشان خوش آمدید!!");
             System.out.println("1. نمایش کهکشان‌ها");
             System.out.println("2. اضافه کردن سیاره جدید");
             System.out.println("3. تغییر تعداد قمر سیاره");
@@ -39,7 +39,7 @@ public class Main {
                     break;
                 case 5:
                     DataManager.saveData(galaxies, dataFile);
-                    System.out.println("خداحافظ. اطلاعات با موفقیت ذخیره شد!");
+                    System.out.println("خداحافظ.. اطلاعات با موفقیت ذخیره شد!");
                     break;
                 default:
                     System.out.println("انتخاب نامعتبر. لطفاً دوباره تلاش کنید.");
